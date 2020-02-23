@@ -24,7 +24,7 @@ public class PatternPractice1 {
             { 
                 System.out.print(j+" "); 
             }
-             
+            // test
             //Printing second half of the row 
              
             for (int j = i-1; j >= 1; j--)
