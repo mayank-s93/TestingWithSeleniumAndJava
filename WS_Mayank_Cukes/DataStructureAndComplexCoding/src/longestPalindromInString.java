@@ -1,0 +1,22 @@
+
+public class longestPalindromInString {
+	
+	public String longesstPalindrom(String s) {
+		return s;
+		
+	}
+	
+	public int expandFromMiddle(String s, int left, int right) {
+		if(s==null || left>right ) {
+			return 0;
+		}
+		while(left>=0 && right<s.length())
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="9419" started-at="2020-01-15T09:27:39Z" finished-at="2020-01-15T09:27:48Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner2@5cc7c2a6]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="9419" started-at="2020-01-15T09:27:39Z" finished-at="2020-01-15T09:27:48Z">
+      <class name="Runner.TestRunner2">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.TestRunner2@5cc7c2a6]" name="setUpClass" is-config="true" duration-ms="125" started-at="2020-01-15T09:27:39Z" finished-at="2020-01-15T09:27:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner2@5cc7c2a6]" name="runScenario" duration-ms="6284" started-at="2020-01-15T09:27:39Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-01-15T09:27:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Enter GMO OnLine site"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test GMO Post"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner2@5cc7c2a6]" name="runScenario" duration-ms="643" started-at="2020-01-15T09:27:45Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-01-15T09:27:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Order an item from the catalog displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test GMO Post"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner2@5cc7c2a6]" name="runScenario" duration-ms="371" started-at="2020-01-15T09:27:46Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-01-15T09:27:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Proceed with Order confirmation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test GMO Post"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner2@5cc7c2a6]" name="runScenario" duration-ms="1085" started-at="2020-01-15T09:27:46Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-01-15T09:27:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Provide billing address and checkout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test GMO Post"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner2@5cc7c2a6]" name="runScenario" duration-ms="816" started-at="2020-01-15T09:27:47Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-01-15T09:27:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["confirm receipt and return to GMO home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test GMO Post"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner.TestRunner2@5cc7c2a6]" name="tearDownClass" is-config="true" duration-ms="47" started-at="2020-01-15T09:27:48Z" finished-at="2020-01-15T09:27:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.TestRunner2 -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

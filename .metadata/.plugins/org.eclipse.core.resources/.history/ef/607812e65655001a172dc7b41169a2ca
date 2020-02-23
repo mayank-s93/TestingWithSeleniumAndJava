@@ -1,0 +1,21 @@
+package Part1;
+
+public class Test {
+
+	public static void main(String[] args) {
+		 
+		String s= "He is going office again and again and again without pay";
+				String[] word= s.split(" ");
+		int count=0;
+   for(int i=0; i<word.length;i++) {
+	   for(int j=i+1;j<word.length;j++ ) {
+		   if(word[i]==word[j]) {
+			   count++;
+			   System.out.println("'"+word[j]+"'" +" Is repeated "+ count+" Times ");
+		   }
+	   }
+   }
+		
+	}
+
+}

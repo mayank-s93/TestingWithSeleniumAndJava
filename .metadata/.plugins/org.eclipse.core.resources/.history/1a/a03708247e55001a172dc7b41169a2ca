@@ -1,0 +1,35 @@
+package Part1;
+
+public class Test {
+
+	public static void main(String[] args) {
+		 
+		String s= "He is going office again and again and again without pay";
+				String[] word= s.split(" ");
+		
+   for(int i=0; i<word.length;i++) {
+	   int count=1;
+	   for(int j=i+1;j<word.length;j++ ) {
+		   if(word[i].equalsIgnoreCase(word[j])) {
+			   count++;
+			   word[j]="0";
+			
+		   }
+	   }
+	   if(count > 1 && word[i] != "0")  
+		   System.out.println(word[i]+" = "+count);
+   }
+   for(int i=0; i<word.length;i++) {
+	   
+	   for(int j=i+1;j<word.length;j++ ) {
+		   if(word[i].equalsIgnoreCase(word[j])) {
+			   word[j]=null;
+			
+		   }
+	   }
+	   for(int k=0; i<word.length;i++)  
+		   System.out.println("String after removing duplicate words : "+word[k]);
+   }
+	}
+
+}
